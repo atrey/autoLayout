@@ -65,17 +65,17 @@ class ViewController: UIViewController {
         }
         
         
-//        //on off
-//        let oov = OnOffView()
-//        self.view.addSubview(oov)
-//        self.onOffView = oov
-//        
-//        oov.snp_makeConstraints { (make) in
-//            make.leading.equalTo(sev)
-//            make.trailing.equalTo(sev)
-//            make.height.equalTo(200)
-//            make.top.equalTo(sev.snp_bottom).offset(20)
-//        }
+        //on off
+        let oov = OnOffView()
+        self.view.addSubview(oov)
+        self.onOffView = oov
+        
+        oov.snp_makeConstraints { (make) in
+            make.leading.equalTo(sev)
+            make.trailing.equalTo(sev)
+            make.height.equalTo(200)
+            make.top.equalTo(sev.snp_bottom).offset(20)
+        }
         
     }
     

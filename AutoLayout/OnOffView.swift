@@ -24,7 +24,6 @@ class OnOffView : UIView {
             make.top.equalTo(20)
             make.leading.equalTo(20)
             make.trailing.equalTo(-20)
-            make.centerX.equalTo(superview!)
             }
         // radio buttons
         let firstRadioButton = UISwitch()

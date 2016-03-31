@@ -33,7 +33,6 @@ class SegmenterView : UIView {
         self.addSubview(segmenter)
         
         segmenter.snp_makeConstraints { (make) in
-            make.centerX
             make.top.equalTo(labelSegmenter.snp_bottom).offset(20)
             make.leading.equalTo(labelSegmenter)
             make.trailing.equalTo(labelSegmenter)
